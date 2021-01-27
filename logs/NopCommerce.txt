@@ -1,23 +1,17 @@
-[INFO ] [2021-01-28 05:38:44,265] Precondition step 01: Input Username textbox with Admin
-[INFO ] [2021-01-28 05:38:45,564] Precondition step 02: Input Password textbox with admin123
-[INFO ] [2021-01-28 05:38:45,883] Precondition step 03: Click to Login button
-[INFO ] [2021-01-28 05:38:51,575] Add Employee - Step 01: Open Page PIM
-[INFO ] [2021-01-28 05:38:54,424] Add Employee - Step 02: Click to add btn
-[INFO ] [2021-01-28 05:38:55,727] Add Employee - Step 03: Input to FirstName with Bui
-[INFO ] [2021-01-28 05:38:56,165] Add Employee - Step 04:Input to MiddleName with Nhat
-[INFO ] [2021-01-28 05:38:56,420] Add Employee - Step 05: Input to LastName with Ha344
-[INFO ] [2021-01-28 05:38:56,682] Add Employee - Step 06: Get employee Id
-[INFO ] [2021-01-28 05:38:56,772] Add Employee - Step 07: Upload avatar
-[INFO ] [2021-01-28 05:38:57,173] Add Employee - Step 08: Click to save btn
-[INFO ] [2021-01-28 05:39:00,774] Add Employee - Step 09: Verify fullname header
-[INFO ] [2021-01-28 05:39:00,879]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-28 05:39:00,893] Add Employee - Step 10: Verify FirstNameBui
-[INFO ] [2021-01-28 05:39:00,996]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-28 05:39:00,996] Add Employee - Step 11: Verify MiddleNameNhat
-[INFO ] [2021-01-28 05:39:01,093]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-28 05:39:01,094] Add Employee - Step 12: Verify LastNameHa344
-[INFO ] [2021-01-28 05:39:01,182]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-28 05:39:01,182] Add Employee - Step 13: Verify EmployeeID0248
-[INFO ] [2021-01-28 05:39:01,284]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-01-28 05:39:02,417] OS name = windows 10
-[INFO ] [2021-01-28 05:39:05,230] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-28 05:58:42,016] Precondition - Step 01: open home page 
+[INFO ] [2021-01-28 05:58:48,066] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-28 05:58:49,743] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-28 06:00:13,448] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-28 06:00:15,655] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-28 06:00:16,196]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 06:00:16,206] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-28 06:00:17,819] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-28 06:00:18,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 06:00:18,112] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-28 06:00:19,026] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-28 06:00:19,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 06:00:19,264] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-28 06:00:20,879] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-28 06:00:21,092]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-28 06:00:23,403] OS name = windows 10
+[INFO ] [2021-01-28 06:00:29,156] ---------- QUIT BROWSER SUCCESS ----------
