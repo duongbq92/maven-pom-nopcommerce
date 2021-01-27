@@ -8,25 +8,64 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Nop Commerce User</th></tr>
-<tr><td><a href="#t0">Run on CHROME UI</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">40,474</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">2,182</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Nop Commerce User</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on CHROME UI &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nopcommerce.users.Level_19_Sort_ASC_DESC</td><td><a href="#m0">TC_01_Sort_By_Deskop</a></td><td rowspan="1">1610195138049</td><td rowspan="1">8079</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td><td><a href="#m0">beforeClass</a></td><td rowspan="1">1611763390293</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td><td><a href="#m1">Employee_05_Edit_Report</a></td><td rowspan="1">1611763392084</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Run on CHROME UI</h2><h3 id="m0">com.nopcommerce.users.Level_19_Sort_ASC_DESC#TC_01_Sort_By_Deskop</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2021-01-09 19:25:38,348] Home Page - Step 01: Move and hover to Computer at Menu bar 
-<br><br/>[INFO ] [2021-01-09 19:25:38,723] Desktop Page - Step 01: Click page desktop 
-<br><br/>[INFO ] [2021-01-09 19:25:40,575] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
-<br><br/>[INFO ] [2021-01-09 19:25:42,388] Desktop Page - Step 03: Verify Sort By : Name A to Z 
-<br><br/>[INFO ] [2021-01-09 19:25:42,659]  -------------------------- PASSED -------------------------- 
-<br><br/>[INFO ] [2021-01-09 19:25:42,681] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
-<br><br/>[INFO ] [2021-01-09 19:25:43,615] Desktop Page - Step 05: Verify Sort By : Name Z to A
-<br><br/>[INFO ] [2021-01-09 19:25:43,828]  -------------------------- PASSED -------------------------- 
-<br><br/>[INFO ] [2021-01-09 19:25:43,828] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
-<br><br/>[INFO ] [2021-01-09 19:25:44,744] Desktop Page - Step 07: Verify Sort By : Price: Low to High
-<br><br/>[INFO ] [2021-01-09 19:25:44,988]  -------------------------- PASSED -------------------------- 
-<br><br/>[INFO ] [2021-01-09 19:25:44,989] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
-<br><br/>[INFO ] [2021-01-09 19:25:45,904] Desktop Page - Step 09: Verify Sort By : Price: High to Low
-<br><br/>[INFO ] [2021-01-09 19:25:46,126]  -------------------------- PASSED -------------------------- 
-<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#beforeClass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\duong\AppData\Local\Temp\testng-eclipse--96183375\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.orangehrm.employee.Employee_01_Add_Edit_Employee_User#Employee_05_Edit_Report</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
+in C:\Users\duong\AppData\Local\Temp\testng-eclipse--96183375\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>TestNG:  Run on CHROME UI</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run on CHROME UI</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 27 23:06:52 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>99 seconds (99542 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_01_Add_Employee()'><b>Employee_01_Add_Employee</b><br>Test class: com.orangehrm.employee.Employee_01_Add_Edit_Employee_User<br/>
+<a href="#Output-189215452" onClick='toggleBox("Output-189215452", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-189215452" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-189215452">
+[INFO ] [2021-01-27 23:08:20,410] Add Employee - Step 01: Open Page PIM
+<br><br/>
+[INFO ] [2021-01-27 23:08:22,878] Add Employee - Step 02: Click to add btn
+<br><br/>
+[INFO ] [2021-01-27 23:08:24,320] Add Employee - Step 03: Input to FirstName with Bui
+<br><br/>
+[INFO ] [2021-01-27 23:08:24,693] Add Employee - Step 04:Input to MiddleName with Nhat
+<br><br/>
+[INFO ] [2021-01-27 23:08:24,958] Add Employee - Step 05: Input to LastName with Ha325
+<br><br/>
+[INFO ] [2021-01-27 23:08:25,198] Add Employee - Step 06: Get employee Id
+<br><br/>
+[INFO ] [2021-01-27 23:08:25,286] Add Employee - Step 07: Upload avatar
+<br><br/>
+[INFO ] [2021-01-27 23:08:25,368] Add Employee - Step 08: Click to save btn
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,499] Add Employee - Step 09: Verify fullname header
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,621]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,669] Add Employee - Step 10: Verify FirstNameBui
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,771]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,771] Add Employee - Step 11: Verify MiddleNameNhat
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,873]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,873] Add Employee - Step 12: Verify LastNameHa325
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,964]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2021-01-27 23:08:29,964] Add Employee - Step 13: Verify EmployeeID0250
+<br><br/>
+[INFO ] [2021-01-27 23:08:30,057]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.orangehrm.employee.Employee_01_Add_Edit_Employee_User@10b3df93</td></tr>
+<tr>
+<td title='com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_07_Search_User()'><b>Employee_07_Search_User</b><br>Test class: com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.employee.Employee_01_Add_Edit_Employee_User@10b3df93</td></tr>
+<tr>
+<td title='com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_08_Delete_User()'><b>Employee_08_Delete_User</b><br>Test class: com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.employee.Employee_01_Add_Edit_Employee_User@10b3df93</td></tr>
+<tr>
+<td title='com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_09_Delete_User()'><b>Employee_09_Delete_User</b><br>Test class: com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.employee.Employee_01_Add_Edit_Employee_User@10b3df93</td></tr>
+<tr>
+<td title='com.orangehrm.employee.Employee_01_Add_Edit_Employee_User.Employee_10_Search_Employee()'><b>Employee_10_Search_Employee</b><br>Test class: com.orangehrm.employee.Employee_01_Add_Edit_Employee_User</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.employee.Employee_01_Add_Edit_Employee_User@10b3df93</td></tr>
+</table><p>
+</body>
+</html>

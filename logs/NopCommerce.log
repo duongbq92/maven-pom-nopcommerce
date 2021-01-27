@@ -106,3 +106,62 @@
 [INFO ] [2021-01-23 04:50:00,895]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-01-23 04:50:03,140] OS name = windows 10
 [INFO ] [2021-01-23 04:50:13,583] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-27 22:54:09,840] Precondition step 01: Input Username textbox with Admin
+[INFO ] [2021-01-27 22:54:13,232] Precondition step 02: Input Password textbox with admin123
+[INFO ] [2021-01-27 22:54:13,550] Precondition step 03: Click to Login button
+[INFO ] [2021-01-27 22:54:27,230] Add Employee - Step 01: Open Page PIM
+[INFO ] [2021-01-27 22:54:30,484] Add Employee - Step 02: Click to add btn
+[INFO ] [2021-01-27 22:54:31,883] Add Employee - Step 03: Input to FirstName with Bui
+[INFO ] [2021-01-27 22:54:32,158] Add Employee - Step 04:Input to MiddleName with Nhat
+[INFO ] [2021-01-27 22:54:32,401] Add Employee - Step 05: Input to LastName with Ha716
+[INFO ] [2021-01-27 22:54:32,630] Add Employee - Step 06: Get employee Id
+[INFO ] [2021-01-27 22:54:32,714] Add Employee - Step 07: Upload avatar
+[INFO ] [2021-01-27 22:54:32,825] Add Employee - Step 08: Click to save btn
+[INFO ] [2021-01-27 22:54:36,903] Add Employee - Step 09: Verify fullname header
+[INFO ] [2021-01-27 22:54:37,020]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 22:54:37,029] Add Employee - Step 10: Verify FirstNameBui
+[INFO ] [2021-01-27 22:54:37,118]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 22:54:37,119] Add Employee - Step 11: Verify MiddleNameNhat
+[INFO ] [2021-01-27 22:54:37,211]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 22:54:37,211] Add Employee - Step 12: Verify LastNameHa716
+[INFO ] [2021-01-27 22:54:37,295]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 22:54:37,295] Add Employee - Step 13: Verify EmployeeID0282
+[INFO ] [2021-01-27 22:54:37,383]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 22:54:37,776] Edit Employee[Personal] - Step 01: Click to 'Edit' button at 'Personal Details' form 
+[INFO ] [2021-01-27 22:54:37,976] Edit Employee[Personal] - Step 02: Enter new info to 'First Name' textbox with value : Hana
+[INFO ] [2021-01-27 22:54:38,294] Edit Employee[Personal] - Step 03: Enter new info to 'Middle Name' textbox with value : Nhat
+[INFO ] [2021-01-27 22:54:38,558] Edit Employee[Personal] - Step 04: Enter new info to 'Last Name' textbox with value : Ha433
+[INFO ] [2021-01-27 22:54:38,806] Edit Employee[Personal] - Step 05: Enter new info to 'SSN Number' textbox  with value : 837-96-6611
+[INFO ] [2021-01-27 22:55:10,066] Edit Employee[Job] - Step 01: Open 'Job' tag 
+[INFO ] [2021-01-27 22:55:11,790] Edit Employee[Job] - Step 02: Click to Edit button at Job
+[INFO ] [2021-01-27 22:55:12,121] Edit Employee[Job] - Step 03: Select 'Job Title' with :QA Engineer
+[INFO ] [2021-01-27 22:55:12,790] Edit Employee[Job] - Step 04: Select 'Employment Status' with :Full-Time Permanent
+[INFO ] [2021-01-27 22:55:43,935] Edit Employee[Report-to]] - Step 01: Open 'Report-to' tag 
+[INFO ] [2021-01-27 22:55:45,587] Edit Employee[Report-to] - Step 02: Click to Add button at Report-to
+[INFO ] [2021-01-27 22:55:45,852] Edit Employee[Report-to] - Step 03: Enter Name at Add Supervior with value : David Morris
+[INFO ] [2021-01-27 22:55:46,149] Edit Employee[Report-to] - Step 04: Select Reporting Method at 'Add Supervior' with value : Direct
+[INFO ] [2021-01-27 22:56:17,484] Search Employee - Step 01: Open Page PIM page menu
+[INFO ] [2021-01-27 22:56:19,471] Search Employee - Step 02: Enter to 'Employee Name' textbox with value : Hana Nhat Ha433
+[INFO ] [2021-01-27 22:56:27,695] Search Employee - Step 03: Enter to 'Id' textbox with value : 0282
+[INFO ] [2021-01-27 22:56:27,896] Search Employee - Step 04: Select to 'Employment Status' dropdown with value : Full-Time Permanent
+[INFO ] [2021-01-27 23:08:06,465] Precondition step 01: Input Username textbox with Admin
+[INFO ] [2021-01-27 23:08:10,363] Precondition step 02: Input Password textbox with admin123
+[INFO ] [2021-01-27 23:08:10,834] Precondition step 03: Click to Login button
+[INFO ] [2021-01-27 23:08:20,410] Add Employee - Step 01: Open Page PIM
+[INFO ] [2021-01-27 23:08:22,878] Add Employee - Step 02: Click to add btn
+[INFO ] [2021-01-27 23:08:24,320] Add Employee - Step 03: Input to FirstName with Bui
+[INFO ] [2021-01-27 23:08:24,693] Add Employee - Step 04:Input to MiddleName with Nhat
+[INFO ] [2021-01-27 23:08:24,958] Add Employee - Step 05: Input to LastName with Ha325
+[INFO ] [2021-01-27 23:08:25,198] Add Employee - Step 06: Get employee Id
+[INFO ] [2021-01-27 23:08:25,286] Add Employee - Step 07: Upload avatar
+[INFO ] [2021-01-27 23:08:25,368] Add Employee - Step 08: Click to save btn
+[INFO ] [2021-01-27 23:08:29,499] Add Employee - Step 09: Verify fullname header
+[INFO ] [2021-01-27 23:08:29,621]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 23:08:29,669] Add Employee - Step 10: Verify FirstNameBui
+[INFO ] [2021-01-27 23:08:29,771]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 23:08:29,771] Add Employee - Step 11: Verify MiddleNameNhat
+[INFO ] [2021-01-27 23:08:29,873]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 23:08:29,873] Add Employee - Step 12: Verify LastNameHa325
+[INFO ] [2021-01-27 23:08:29,964]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-27 23:08:29,964] Add Employee - Step 13: Verify EmployeeID0250
+[INFO ] [2021-01-27 23:08:30,057]  -------------------------- PASSED -------------------------- 

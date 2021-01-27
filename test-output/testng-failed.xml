@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Nop Commerce User]">
-  <listeners>
-    <listener class-name="commons.MethodListener"/>
-    <listener class-name="reportConfig.AllureTestListener"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-  </listeners>
-  <test thread-count="5" name="Run on CHROME UI(failed)">
-    <parameter name="browser" value="chrome_ui"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nopcommerce.users.Level_19_Sort_ASC_DESC">
+      <class name="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User">
         <methods>
-          <include name="beforeClass"/>
-          <include name="TC_01_Sort_By_Deskop"/>
           <include name="afterClass"/>
+          <include name="Employee_05_Edit_Report"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.nopcommerce.users.Level_19_Sort_ASC_DESC -->
+      </class> <!-- com.orangehrm.employee.Employee_01_Add_Edit_Employee_User -->
     </classes>
-  </test> <!-- Run on CHROME UI(failed) -->
-</suite> <!-- Failed suite [Nop Commerce User] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
