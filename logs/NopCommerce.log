@@ -1,0 +1,108 @@
+[INFO ] [2021-01-09 16:51:21,268] OS name = windows 10
+[INFO ] [2021-01-09 16:51:21,269] 
+[INFO ] [2021-01-09 19:25:37,938] Precondition - Step 01: open home page 
+[INFO ] [2021-01-09 19:25:38,348] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-09 19:25:38,723] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-09 19:25:40,575] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-09 19:25:42,388] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-09 19:25:42,659]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:25:42,681] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-09 19:25:43,615] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-09 19:25:43,828]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:25:43,828] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-09 19:25:44,744] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-09 19:25:44,988]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:25:44,989] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-09 19:25:45,904] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-09 19:25:46,126]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:25:46,783] OS name = windows 10
+[INFO ] [2021-01-09 19:25:48,571] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-09 19:57:56,620] Precondition - Step 01: open home page 
+[INFO ] [2021-01-09 19:57:59,345] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-09 19:58:01,018] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-09 19:58:03,891] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-09 19:58:05,820] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-09 19:58:06,151]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:58:06,166] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-09 19:58:07,311] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-09 19:58:07,557]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:58:07,558] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-09 19:58:09,364] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-09 19:58:09,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:58:09,610] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-09 19:58:11,218] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-09 19:58:11,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 19:58:12,311] OS name = windows 10
+[INFO ] [2021-01-09 19:58:14,619] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-09 20:18:14,389] Precondition - Step 01: open home page 
+[INFO ] [2021-01-09 20:18:15,292] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-09 20:18:15,894] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-09 20:18:17,594] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-09 20:18:19,723] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-09 20:18:20,096]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 20:18:20,112] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-09 20:18:21,870] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-09 20:18:22,162]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 20:18:22,163] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-09 20:18:24,242] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-09 20:18:24,684]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 20:18:24,685] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-09 20:18:26,420] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-09 20:18:26,742]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 20:18:28,067] OS name = windows 10
+[INFO ] [2021-01-09 20:18:30,150] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-09 23:20:16,885] Precondition - Step 01: open home page 
+[INFO ] [2021-01-09 23:20:22,249] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-09 23:20:23,318] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-09 23:20:27,146] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-09 23:20:30,229] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-09 23:20:30,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 23:20:30,963] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-09 23:20:32,937] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-09 23:20:33,239]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 23:20:33,239] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-09 23:20:35,090] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-09 23:20:35,425]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 23:20:35,426] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-09 23:20:37,379] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-09 23:20:37,794]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-09 23:20:38,588] OS name = windows 10
+[INFO ] [2021-01-09 23:20:41,513] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-22 21:47:39,961] Precondition - Step 01: open home page 
+[INFO ] [2021-01-22 21:47:41,495] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-22 21:47:42,625] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-22 21:47:45,313] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-22 21:47:47,429] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-22 21:47:47,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-22 21:47:47,956] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-22 21:47:50,060] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-22 21:47:50,395]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-22 21:47:50,395] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-22 21:47:52,326] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-22 21:47:52,626]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-22 21:47:52,627] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-22 21:47:54,605] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-22 21:47:54,908]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-22 21:47:56,390] OS name = windows 10
+[INFO ] [2021-01-22 21:47:58,482] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 04:42:58,709] Precondition - Step 01: open home page 
+[INFO ] [2021-01-23 04:43:08,307] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-23 04:43:43,195] OS name = windows 10
+[INFO ] [2021-01-23 04:43:50,027] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-01-23 04:49:42,796] Precondition - Step 01: open home page 
+[INFO ] [2021-01-23 04:49:46,762] Home Page - Step 01: Move and hover to Computer at Menu bar 
+[INFO ] [2021-01-23 04:49:48,994] Desktop Page - Step 01: Click page desktop 
+[INFO ] [2021-01-23 04:49:52,363] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+[INFO ] [2021-01-23 04:49:55,093] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+[INFO ] [2021-01-23 04:49:55,544]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 04:49:55,678] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+[INFO ] [2021-01-23 04:49:57,555] Desktop Page - Step 05: Verify Sort By : Name Z to A
+[INFO ] [2021-01-23 04:49:57,945]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 04:49:57,945] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+[INFO ] [2021-01-23 04:49:59,239] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+[INFO ] [2021-01-23 04:49:59,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 04:49:59,543] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+[INFO ] [2021-01-23 04:50:00,625] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+[INFO ] [2021-01-23 04:50:00,895]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-01-23 04:50:03,140] OS name = windows 10
+[INFO ] [2021-01-23 04:50:13,583] ---------- QUIT BROWSER SUCCESS ----------

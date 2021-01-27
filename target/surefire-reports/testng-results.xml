@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:42,796] Precondition - Step 01: open home page 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:46,762] Home Page - Step 01: Move and hover to Computer at Menu bar 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:48,994] Desktop Page - Step 01: Click page desktop 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:52,363] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:55,093] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:55,544]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:55,678] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:57,555] Desktop Page - Step 05: Verify Sort By : Name Z to A
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:57,945]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:57,945] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:59,239] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:59,542]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:49:59,543] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:50:00,625] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:50:00,895]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:50:03,140] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-01-23 04:50:13,583] ---------- QUIT BROWSER SUCCESS ----------
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Nop Commerce User" duration-ms="108834" started-at="2021-01-22T21:48:24Z" finished-at="2021-01-22T21:50:13Z">
+    <groups>
+    </groups>
+    <test name="Run on CHROME UI" duration-ms="108834" started-at="2021-01-22T21:48:24Z" finished-at="2021-01-22T21:50:13Z">
+      <class name="com.nopcommerce.users.Level_20_Multiple_Environment_Sort_ASC_DESC2">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.users.Level_20_Multiple_Environment_Sort_ASC_DESC2@47a64f7d]" name="beforeClass" is-config="true" duration-ms="79281" started-at="2021-01-22T21:48:25Z" finished-at="2021-01-22T21:49:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome_ui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:42,796] Precondition - Step 01: open home page 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_Sort_By_Deskop()[pri:0, instance:com.nopcommerce.users.Level_20_Multiple_Environment_Sort_ASC_DESC2@47a64f7d]" name="TC_01_Sort_By_Deskop" duration-ms="16451" started-at="2021-01-22T21:49:44Z" finished-at="2021-01-22T21:50:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:46,762] Home Page - Step 01: Move and hover to Computer at Menu bar 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:48,994] Desktop Page - Step 01: Click page desktop 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:52,363] Desktop Page - Step 02: Click dropdown Sort By : Name A to Z 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:55,093] Desktop Page - Step 03: Verify Sort By : Name A to Z 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:55,544]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:55,678] Desktop Page - Step 04: Click dropdown Sort By : Name Z to A
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:57,555] Desktop Page - Step 05: Verify Sort By : Name Z to A
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:57,945]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:57,945] Desktop Page - Step 06: Click dropdown Sort By : Price: Low to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:59,239] Desktop Page - Step 07: Verify Sort By : Price: Low to High
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:59,542]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:49:59,543] Desktop Page - Step 08: Click dropdown Sort By : Price: High to Low
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:50:00,625] Desktop Page - Step 09: Verify Sort By : Price: High to Low
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:50:00,895]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Sort_By_Deskop -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.users.Level_20_Multiple_Environment_Sort_ASC_DESC2@47a64f7d]" name="afterClass" is-config="true" duration-ms="10445" started-at="2021-01-22T21:50:03Z" finished-at="2021-01-22T21:50:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:50:03,140] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-01-23 04:50:13,583] ---------- QUIT BROWSER SUCCESS ----------
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.users.Level_20_Multiple_Environment_Sort_ASC_DESC2 -->
+    </test> <!-- Run on CHROME UI -->
+  </suite> <!-- Nop Commerce User -->
+</testng-results>

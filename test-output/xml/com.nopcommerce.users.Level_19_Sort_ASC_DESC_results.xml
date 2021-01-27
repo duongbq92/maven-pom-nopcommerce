@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME UI"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18.824">
+  <properties />
+  
+  
+            <testcase name="TC_01_Sort_By_Deskop" time="18.824" classname="com.nopcommerce.users.Level_19_Sort_ASC_DESC" />
+      
+</testsuite>
