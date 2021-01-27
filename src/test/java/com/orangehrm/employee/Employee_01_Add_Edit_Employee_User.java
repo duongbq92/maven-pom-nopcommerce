@@ -123,7 +123,7 @@ public class Employee_01_Add_Edit_Employee_User extends AbstractTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Employee_02_Edit_Employee_By_Personal() {
 		log.info("Edit Employee[Personal] - Step 01: Click to 'Edit' button at 'Personal Details' form ");
 		employeeDetailPage.clickToButtonByNameAtFromHeader(driver, "Personal Details", "Edit");
@@ -231,7 +231,7 @@ public class Employee_01_Add_Edit_Employee_User extends AbstractTest {
 				components));
 	}
 
-	@Test
+//	@Test
 	public void Employee_04_Edit_By_Job() {
 		log.info("Edit Employee[Job] - Step 01: Open 'Job' tag ");
 		employeeDetailPage.openSideBarTabByName("Job");
@@ -293,7 +293,7 @@ public class Employee_01_Add_Edit_Employee_User extends AbstractTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Employee_05_Edit_Report() {
 		log.info("Edit Employee[Report-to]] - Step 01: Open 'Report-to' tag ");
 		employeeDetailPage.openSideBarTabByName("Report-to");
@@ -315,7 +315,7 @@ public class Employee_01_Add_Edit_Employee_User extends AbstractTest {
 		verifyTrue(employeeDetailPage.isInformationDisplayCollumNameAtRowNumber(driver, "sup_list", "Reporting Method","1", reporttingMethod));
 	}
 
-	@Test
+//	@Test
 	public void Employee_06_Search_Employee() {
 		log.info("Search Employee - Step 01: Open Page PIM page menu");
 		employeeDetailPage.openMenuWithPageName(driver, "PIM");
@@ -372,7 +372,7 @@ public class Employee_01_Add_Edit_Employee_User extends AbstractTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-//		closeBrowserAndDriver(driver);
+		closeBrowserAndDriver(driver);
 	}
 
 }
