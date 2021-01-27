@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.125">
+           time="10.111">
   <properties />
   
   
-            <testcase name="Employee_07_Search_User" time="0.005" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
-                <testcase name="Employee_10_Search_Employee" time="0.003" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
-                <testcase name="Employee_01_Add_Employee" time="10.109" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
+            <testcase name="Employee_07_Search_User" time="0.003" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
+                <testcase name="Employee_08_Delete_User" time="0.003" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
                 <testcase name="Employee_09_Delete_User" time="0.004" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
-                <testcase name="Employee_08_Delete_User" time="0.004" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
+                <testcase name="Employee_10_Search_Employee" time="0.003" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
+                <testcase name="Employee_01_Add_Employee" time="10.098" classname="com.orangehrm.employee.Employee_01_Add_Edit_Employee_User" />
       
 </testsuite>
