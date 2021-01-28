@@ -80,6 +80,7 @@ public class Level_19_Sort_ASC_DESC extends AbstractTest{
 		log.info("Desktop Page - Step 09: Verify Sort By : Price: High to Low");
 		verifyTrue(desktopPage.areSortedPriceByDescending());
 		
+		log.info("Desktop Page - Step End: The End");
 //		log.info("Desktop Page - Step 10: Verify Sort By : Price: Low to High");
 //		verifyTrue(desktopPage.areSortedDateByAscending());
 //		
